@@ -62,17 +62,17 @@ void opcontrol() {
 
       if(clawInButton.isPressed()) {
 
-        claw.moveVelocity(-100);
+        clawer.moveVelocity(-100);
 
       } else {
 
-        claw.moveVelocity(0);
+        clawer.moveVelocity(0);
 
       }
 
       if(clawOutButton.isPressed()) {
 
-        claw.moveVelocity(100);
+        clawer.moveVelocity(100);
 
       }
 
